@@ -4,14 +4,22 @@ Analyzed the text of all Reddit/WallStreetBets posts over an 8 month period and 
 Data was sourced from Kaggle.com. It was compiled by Kaggle Grandmaster Gabriel Preda using
 The Python Reddit API Wrapper (praw). The data set has 53,187 observations and the time period
 included is from January 28th to August 16th 2021. It inludes the following features:
+
 • Title - The Title of the Post on Reddit
+
 • Score - The Score of the Post (Number of upvotes it has received)
+
 • id - ID of the user who posted
+
 • url - A link to either the text post within Reddit or to an external link posted by the user
+
 • CommsNum - Number of comments on the post by Reddit users
+
 • Body - The text of a post if it was posted within Reddit. This only has 24,000 non-null
 observations out of the 53,000, as many posts are links or images that do not contain text.
+
 • Timestamp - Date and second the post was generated
+
 The combined title and body of the text (examples in figures 16 and 14 will be the corpus and
 explanatory variable of our model. The text data is unique given the Redditors are using bespoke
 lingo and often do not adhere to English-language norms. For example, there are some well-thought
