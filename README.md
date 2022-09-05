@@ -1,4 +1,8 @@
 # Stock-Forecasting-using-Reddit-Posts
+
+Note: This is just a Jupyter Notebook. For data and more information please contact.
+
+Summary: 
 Analyzed the text of all Reddit/WallStreetBets posts over an 8 month period and generated above-baseline stock trading returns based solely on the sentiment of the Reddit community
 
 Data was sourced from Kaggle.com. It was compiled by Kaggle Grandmaster Gabriel Preda using
@@ -27,6 +31,7 @@ out and descriptive text posts, while there are others that just say ”HOLYMOLY
 of times.
 2
 
+Methods:
 
 To inspect the text data, I first used Sci-Kit Learn CountVectorizer (results in figure 3 and TF-
 IDFVectorizer (results in figure 4, the latter being the term-frequency inverse document frequency
